@@ -1,1 +1,1 @@
-# sql-query-ref
+# SQL Query Reference
