@@ -1,4 +1,4 @@
-[Refer to a SQL problem](https://www.hackerrank.com/challenges/challenges/problem?isFullScreen=true)
+Refer to a SQL problem: https://www.hackerrank.com/challenges/challenges/problem?isFullScreen=true
 
 Solution:
 SELECT C.hacker_id, H.name, COUNT(C.challenge_id) AS totnumchal
