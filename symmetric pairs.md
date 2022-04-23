@@ -11,7 +11,7 @@
   <summary>Click to see the solution!</summary>
   
 ```sql
- SELECT t.X, t.Y
+SELECT t.X, t.Y
 FROM (SELECT f.X, f.Y
       FROM Functions AS f 
       JOIN Functions AS f1 
