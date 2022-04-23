@@ -22,3 +22,4 @@ HAVING COUNT(t.X) > 1 OR
        t.X < t.Y
 ORDER BY t.X;
 ```
+</details>
