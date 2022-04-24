@@ -9,9 +9,6 @@
 [Problem Description](https://www.hackerrank.com/challenges/contest-leaderboard/problem?isFullScreen=true&h_r=next-challenge&h_v=zen)
 
 ## Solution
-<details>
-  <summary>Click to see the solution!</summary>
-
 ```sql
 SELECT m.hacker_id, h.name, SUM(m.score) AS tot_score
 FROM (SELECT hacker_id, challenge_id, MAX(score) AS score
@@ -25,4 +22,4 @@ ORDER BY tot_score DESC, m.hacker_id;
 ```
 Note:
 - Since the problem asks to select only maximum score, it is better to create a data set containing only max scores and sum them up.
-</details>
+
