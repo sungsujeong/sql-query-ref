@@ -10,9 +10,6 @@
 [Problem Description](https://www.hackerrank.com/challenges/sql-projects/problem?isFullScreen=true)
 
 ## Solution
-<details>
-  <summary>Click to see the solution!</summary>
-  
 ```sql
 SELECT Start_Date, MIN(End_Date)
 FROM (SELECT Start_Date
@@ -35,4 +32,3 @@ ORDER BY DATEDIFF(MIN(End_Date), Start_Date), Start_Date;
 - At this point, Start_Date is an unique date that can be grouped
 - WHERE clause selects Start_Date before End_Date
   ex) Choose 2015-10-01 2015-10-05, NOT 2015-11-17 2015-10-05
-</details>
