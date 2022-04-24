@@ -6,9 +6,9 @@
 - [ ] [R (Basic)]()
 - [ ] [R (Intermediate)]()
 ## SQL
-- [x] [SQL (Basic)](https://github.com/sungsujeong/sql-query-ref/blob/main/sql_basic.png)
-- [x] [SQL (Intermediate)](https://www.hackerrank.com/certificates/26018d03c9b2)
-- [x] [SQL (Advanced)](https://www.hackerrank.com/certificates/57fbf4722e69)
+- [x] [SQL (Basic)](https://github.com/sungsujeong/sql-query-ref/blob/main/certification-image/sql_basic.jpg)
+- [x] [SQL (Intermediate)](https://github.com/sungsujeong/sql-query-ref/blob/main/certification-image/sql_inter.jpg)
+- [x] [SQL (Advanced)](https://github.com/sungsujeong/sql-query-ref/blob/main/certification-image/sql_adv.jpg)
 ## RestAPI
 - [ ] [RestAPI (Intermediate)]()
 ## Problem Solving
