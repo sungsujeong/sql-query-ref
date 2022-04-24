@@ -5,9 +5,6 @@
 [Problem Description](https://www.hackerrank.com/challenges/interviews/problem)
 
 ## Solution
-<details>
-  <summary>Click to see the solution!</summary>
-
 ```sql
 SELECT ct.contest_id, 
        ct.hacker_id, 
@@ -46,4 +43,3 @@ HAVING (SUM(ss.sum_tot_sub) +
        
 ORDER BY ct.contest_id;
 ```
-</details>
