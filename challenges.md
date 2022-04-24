@@ -9,9 +9,6 @@
 [Problem Description](https://www.hackerrank.com/challenges/challenges/problem?isFullScreen=true)
 
 ## Solution
-<details>
-  <summary>Click to see the solution!</summary>
-
 ```sql
 SELECT C.hacker_id, H.name, COUNT(C.challenge_id) AS totnumchal
 FROM Hackers AS H
@@ -36,5 +33,4 @@ GROUP BY C2.hacker_id
 HAVING C2.hacker_id != C.hacker_id
 
 - The part of code below selects unique number of challenge_id from unique hacker_id
-totnumchal NOT IN (~) 
-</details>
+totnumchal NOT IN (~)
