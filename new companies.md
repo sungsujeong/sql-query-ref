@@ -7,9 +7,6 @@
 [Problem Description](https://www.hackerrank.com/challenges/the-company/problem?isFullScreen=true)
 
 ## Solution
-<details>
-  <summary>Click to see the solution!</summary>
-
 ```sql
 SELECT C.company_code, 
        C.founder, 
@@ -29,4 +26,3 @@ WHERE C.company_code = LM.company_code AND
 GROUP BY C.company_code, C.founder
 ORDER BY C.company_code;
 ```
-</details>
