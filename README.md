@@ -1,6 +1,3 @@
-# SQL Query Reference
-[Go to HackerRank SQL](https://www.hackerrank.com/domains/sql)
-
 # HackerRank Certification
 ## Python
 - [ ] [Python (Basic)]()
