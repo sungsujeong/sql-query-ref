@@ -6,10 +6,7 @@
 
 [Problem Description](https://www.hackerrank.com/challenges/symmetric-pairs/problem?isFullScreen=true)
 
-## Solution
-<details>
-  <summary>Click to see the solution!</summary>
-  
+## Solution  
 ```sql
 SELECT t.X, t.Y
 FROM (SELECT f.X, f.Y
@@ -22,4 +19,3 @@ HAVING COUNT(t.X) > 1 OR
        t.X < t.Y
 ORDER BY t.X;
 ```
-</details>
