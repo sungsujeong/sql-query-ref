@@ -10,9 +10,6 @@
 [Problem Description](https://www.hackerrank.com/challenges/placements/problem?isFullScreen=true)
 
 ## Solution
-<details>
-  <summary>Click to see the solution!</summary>
-
 ```sql
 SELECT s.Name
 FROM Students AS s 
@@ -22,4 +19,3 @@ FROM Students AS s
 WHERE p.Salary < p1.Salary
 ORDER BY p1.Salary;
 ```
-</details>
