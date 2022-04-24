@@ -1,6 +1,6 @@
 # Draw The Triangle 1
 ## HackerRank - Alternative Queries
-> P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5)
+> P(R) represents a pattern drawn by Julia in R rows. The following pattern represents P(5).
 > Write a query to print the pattern P(20).
 
 [Problem Description](https://www.hackerrank.com/challenges/draw-the-triangle-1/problem?isFullScreen=true)
