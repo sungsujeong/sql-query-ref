@@ -8,9 +8,6 @@
 [Problem Description](https://www.hackerrank.com/challenges/harry-potter-and-wands/problem?isFullScreen=true)
 
 ## Solution
-<details>
-  <summary>Click to see the solution!</summary>
-
 ```sql
 SELECT id, age, coins_needed, power
 FROM Wands W
@@ -25,4 +22,3 @@ WHERE coins_needed = (SELECT MIN(coins_needed)
                             W2.power = W.power)
 ORDER BY W.power DESC, WP.age DESC;
 ```
-</details>
